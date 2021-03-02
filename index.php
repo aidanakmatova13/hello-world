@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background-color:Tomato; url("https://www.pommietravels.com/wp-content/uploads/2019/12/seaside-994605.jpg");">
+<html style="background-color:Tomato;">
 	
 <head>
 	<title>aidana</title>
