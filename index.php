@@ -48,7 +48,7 @@ img {
     <p><i style="color:#E0E0E0">I create custom websites  to help busnisses do better online.</i></p>
 	
 	<button type="button" onclick="alert('Hello world!')">My projects</button>
-	<img src="woman.jpg" width="250", height="300">
+	<img src="man.jpg" width="250", height="300">
 
 <h2 style="color: white">Me in social media</h2>
 <a href="https://youtube.com/channel/UCVhTYda6nxDhOIZ02TABHRg" class="fa fa-youtube"></a>
