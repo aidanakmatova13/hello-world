@@ -8,7 +8,7 @@
 	<div>welcome to my first site</div>
 	<div>Hello World <br>Aidana Akmatova</div>
 	<a href="https://www.youtube.com/watch?v=8WVXk0Gz66E"><button>here</button></a>
-	<img src="https://www.pommietravels.com/wp-content/uploads/2019/12/seaside-994605.jpg"  alt="beach">
+	<img src="https://www.pommietravels.com/wp-content/uploads/2019/12/seaside-994605.jpg"  alt="beach" style="width:500px;height:600px;">
 	<?php echo '<p>i am aidana</p>' ?>
 
 
