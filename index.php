@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="background-color:Tomato;">
+<html style="background-color:light blue;">
 	
 <head>
 	<title>aidana</title>
