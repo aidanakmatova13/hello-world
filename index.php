@@ -48,7 +48,7 @@ img {
     <p><i style="color:#E0E0E0">I create custom websites  to help busnisses do better online.</i></p>
 	
 	<button type="button" onclick="alert('Hello world!')">My projects</button>
-	<img src="girl.jpg " alt="Man"
+	<img src="https://media.istockphoto.com/vectors/silhouette-of-woman-and-briefcase-line-icon-female-candidate-outline-vector-id1218542332"
 	style="width:200px; height:250px;">
 	<p> .</p>
 	<p> .</p>
