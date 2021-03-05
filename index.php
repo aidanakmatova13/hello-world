@@ -48,7 +48,7 @@ img {
     <p><i style="color:#E0E0E0">I create custom websites  to help busnisses do better online.</i></p>
 	
 	<button type="button" onclick="alert('Hello world!')">My projects</button>
-	<img src="blob:https://web.whatsapp.com/a88fe363-3695-43fc-b23c-b2a85ebbcb3c"
+	<img src="https://lh3.googleusercontent.com/wCvjEF_5hv5MIRrOf0eLIpq5HlbqVJf23slX_JDSy3uuDcUqg2jhATuxtKVs9K7crx4W=s85"
 	style="width:200px; height:250px;">
 	<p> .</p>
 	<p> .</p>
