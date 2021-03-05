@@ -48,10 +48,8 @@ img {
     <p><i style="color:#E0E0E0">I create custom websites  to help busnisses do better online.</i></p>
 	
 	<button type="button" onclick="alert('Hello world!')">My projects</button>
-	<p> .</p>
-	<p> .</p>
-	<p> .</p>
-	<p> .</p>
+	<img src="man.jpg " alt="Man"
+	style="width:250px; height:400px;">
 	<p> .</p>
 	<p> .</p>
 	<p> .</p>
