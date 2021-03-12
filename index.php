@@ -40,6 +40,23 @@ img {
 </style>
 </head>
 <body>
+	<div>
+        <form action="handler.php">
+   <p><strong style="color:black " >Логин:</strong> 
+    <input maxlength="25" size="40" name="login"></p>
+   <p><strong style="color: black">Пароль:</strong> 
+    <input type="password" maxlength="25" size="40" name="password"></p>
+    <p><input type="submit" value="Отправить"></p>
+      </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<h1 style="color:white"><center>Hey, I'm Aidana!</center></h1>
 
 
