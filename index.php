@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html style="background: white url('https://thewallpaper.co/wp-content/uploads/2020/09/abstract-wallpaper-hd-artworks-cool-desktop-images-art-colorful-backgrounds-cute-background-images-lovely-1697x1100-1.jpg')">
+<html style="background: white url('https://images.wallpaperscraft.com/image/grass_spikelets_dry_143831_1920x1080.jpg')">
 	
 <head>
 	<meta charset="utf-8">
-  <title>Поле с паролем</title>
+  <title>aidana</title>
 	<title>aidana</title>
 <style>
 img {
@@ -79,7 +79,7 @@ img {
     
 	
 	<button type="button" onclick="alert('Hello world!')">My projects</button>
-	<img src="https://lh3.googleusercontent.com/wCvjEF_5hv5MIRrOf0eLIpq5HlbqVJf23slX_JDSy3uuDcUqg2jhATuxtKVs9K7crx4W=s85" 
+	<img src="https://w7.pngwing.com/pngs/49/229/png-transparent-barbie-girl-silhouette-drawing-hair-silhouette-logo-monochrome-black-thumbnail.png" 
 	style="width:200px; height:250px;">
 	
 	<p> .</p>
