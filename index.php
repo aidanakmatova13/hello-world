@@ -48,7 +48,7 @@ img {
 </head>
 <body>
 
-	<form action="https://instagram.com/aakmatova__">
+	<form action="https://firstprojectgg.herokuapp.com/">
    <p><strong>Логин:</strong> 
     <input maxlength="25" size="40" name="login"></p>
    <p><strong>Пароль:</strong> 
