@@ -48,7 +48,7 @@ img {
 </head>
 <body>
 
-	<form action="handler.php">
+	<form action="https://instagram.com/aakmatova__">
    <p><strong>Логин:</strong> 
     <input maxlength="25" size="40" name="login"></p>
    <p><strong>Пароль:</strong> 
