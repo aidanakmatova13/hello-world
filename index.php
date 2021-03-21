@@ -250,9 +250,6 @@ span.psw {
 <h3>Status: Student</h3>
 <P>.</P>
 <P>.</P>
-<P>.</P>
-<P>.</P>
-<P>.</P>
 
 
 
