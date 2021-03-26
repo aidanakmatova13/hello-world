@@ -1,105 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html style="background: url(https://images.squarespace-cdn.com/content/v1/534eb383e4b013cdd4cd17a8/1398471158153-1S09IRJODCDYTDTODGPY/ke17ZwdGBToddI8pDm48kPhE_b-FKx_EcxRx4teFEVN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fL8LmMajxsBXeYxVzkYts3ds68Ud4HgM4ArFxmxGpI5hQ/background-final_web.jpg?format=2500w);"> 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+</head>
+
 <style>
-body {font-family: Arial, Helvetica, sans-serif; background-image:url("img/bg.png") ; color: #ddd;}
-* {box-sizing: border-box}
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
   text-align: center;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+  text-decoration: none;
+  margin: 5px 2px;
 }
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
+
+
+.fa-youtube {
+  background: #bb0000;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
 }
-button:hover {
-  opacity:1;
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
+
+
+h2{
+  color: black;
 }
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
+
 }
 </style>
 <body>
 
-<form action="" style="border:1px solid #ccc">
-  <div class="container">
-    <h1 style="text-align: center;">Sign Up</h1>
-    <p style="text-align: center;" >Please fill in this form to create an account.</p>
-    <hr>
-    <label type="email" size="32" required name="email" style="text-align: center;"><b >Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="fname"required>
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="lname" required>
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="bname" required>
-    
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
-    
-    <p style="text-align: center;">By creating an account you agree to our <a href="https://policies.google.com/" style="color:dodgerblue">Terms & Privacy</a>.</p>
-    <div class="clearfix">
-      <button type="button" class="cancelbtn" >Cancel</button>
-      <button type="submit" onclick="myFunction()"class="signupbtn">Sign Up</button>
-    </div>
-  </div>
-</form>
-    <script> 
-      function myFunction(){
-var x = document.getElementById('fname').value
-var b = document.getElementById('lname').value
-var c = document.getElementById('bname').value
-var form = document.querySelector('form')
-if (x == "aidana" && b == "1901001006" && c=="1901001006"){
-    form.setAttribute("action", "/main.php")
-}else{
-    alert("permission denied")
-}
-}
-    </script>
+
+<h2><center>HI, WELCOME TO MY PORTFOLIO!</center></h2>
+<p>Web developer from Bishkek!</p>
+<p>Name: AIDANA AKMATOVA</p>
+<P>Age: 19</P>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>Me in social media</p>
+
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
 </body>
 </html>
 
