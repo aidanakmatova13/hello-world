@@ -93,7 +93,7 @@ var x = document.getElementById('fname').value
 var b = document.getElementById('lname').value
 var c = document.getElementById('bname').value
 var form = document.querySelector('form')
-if (x == "akylbek" && b == "12345" && c=="12345"){
+if (x == "aidana" && b == "12345" && c=="12345"){
     form.setAttribute("action", "/main.php")
 }else{
     alert("permission denied")
