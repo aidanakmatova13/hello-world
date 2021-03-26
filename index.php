@@ -7,68 +7,15 @@
 
   <title>aidana</title>
 <style>
-  h3{
-    color:white; 
-  }
-  h2{
-    color:white;
-
-  }
-  h1{
-    color:white;
-
-  }
-  body{
-    font-family:  Garamond, serif;
-  }
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-
-
-.fa-skype {
-  background: #00aff0;
-  color: white;
-}
-h2{
-color: tomato;
-}
-
-
+  
 
 </style>
 <style type="text/css"></style>
 
 </head>
 <body>
-<h1><CENTER>HI, WELCOME TO MY PORTFOLIO!</CENTER></style></h1>
- <div style="text-align: right;"><img src="https://media.istockphoto.com/vectors/woman-face-silhouette-girl-with-a-ponytail-portrait-female-head-side-vector-id1133423241?k=6&m=1133423241&s=170667a&w=0&h=ief1vcqlVh-qjzyJt80QRwXSiJdRsup6vfl5qD-xYaw=" width="160spx", height="200px"></div>
 
- </div>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -243,31 +190,6 @@ span.psw {
     </div>
   </form>
 </div>
-<h3>Name: Aidana Akmatova</h3>
-
-<h3>Age: 19</h3>
-
-<h3>Status: Student</h3>
-<P>.</P>
-<P>.</P>
-
-
-
-<h2>Me in social media</h2>
-
-
-<a href="#" class="fa fa-google"></a>
-
-<a href="https://youtube.com/channel/UCVhTYda6nxDhOIZ02TABHRg" class="fa fa-youtube"></a>
-<a href="https://instagram.com/aakmatova__?igshid=124mqrrhxdojp" class="fa fa-instagram"></a>
-
-<a href="#" class="fa fa-skype"></a>
-
-
-
-
-
-
 
 
 
