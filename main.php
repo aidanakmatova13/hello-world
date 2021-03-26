@@ -1,35 +1,26 @@
 <!DOCTYPE html>
-<html style="background: white url('https://3.bp.blogspot.com/-3-xBXaIqgvg/WKnFQwcMvlI/AAAAAAAAAog/n091eXxhFt07cEl-SfyAJEYsJWAZvdOVwCLcB/w1200-h630-p-k-no-nu/Dark%2BRoom%2BWith%2BLight.jpg')">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <title>aidana</title>
+<html>
 <style>
-  
-
-</style>
-<style type="text/css"></style>
-
-</head>
-<body>
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-
+body {font-family: Arial, Helvetica, sans-serif; background-image:url("img/bg.png") ; color: #ddd;}
+* {box-sizing: border-box}
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  text-align: center;
+  padding: 15px;
+  margin: 5px 0 22px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  border: none;
+  background: #f1f1f1;
 }
-
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
 /* Set a style for all buttons */
 button {
   background-color: #4CAF50;
@@ -39,160 +30,75 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  opacity: 0.9;
 }
-
 button:hover {
-  opacity: 0.8;
+  opacity:1;
 }
-
 /* Extra styles for the cancel button */
 .cancelbtn {
-  width: auto;
-  padding: 10px 18px;
+  padding: 14px 20px;
   background-color: #f44336;
 }
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
 }
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
+/* Add padding to container elements */
 .container {
   padding: 16px;
 }
-
-span.psw {
-  float: right;
-  padding-top: 16px;
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
+/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
+  .cancelbtn, .signupbtn {
      width: 100%;
   }
 }
 </style>
-</head>
 <body>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
+<form action="" style="border:1px solid #ccc">
+  <div class="container">
+    <h1 style="text-align: center;">Sign Up</h1>
+    <p style="text-align: center;" >Please fill in this form to create an account.</p>
+    <hr>
+    <label type="email" size="32" required name="email" style="text-align: center;"><b >Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="fname"required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="lname" required>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="bname" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p style="text-align: center;">By creating an account you agree to our <a href="https://policies.google.com/" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <div class="clearfix">
+      <button type="button" class="cancelbtn" >Cancel</button>
+      <button type="submit" onclick="myFunction()"class="signupbtn">Sign Up</button>
     </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" id="fname"required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" id="lname"required>
-        
-      <button type="submit" onclick="myFunction()">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-      
-      <script lauguage="javascript">
-  function myFunction(){
-      var a = document.getElementById("fname").value
-      var b = document.getElementById("lname").value
-      var form = document.querySelector("form")
-
-       if (a=="aidana" && b == "12345"){
-        form.setAttribute('action', 'https://www.youtube.com/');
-       }else{
-        alert('permission denied')
-       }
-  }
-
-
-</script>
-
-
-
-    </div>
-  </form>
-</div>
-
-
-
-
+  </div>
+</form>
+    <script> 
+      function myFunction(){
+var x = document.getElementById('fname').value
+var b = document.getElementById('lname').value
+var c = document.getElementById('bname').value
+var form = document.querySelector('form')
+if (x == "aidana" && b == "12345" && c=="12345"){
+    form.setAttribute("action", "/main.php")
+}else{
+    alert("permission denied")
+}
+}
+    </script>
 </body>
 </html>
