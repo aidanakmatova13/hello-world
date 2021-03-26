@@ -38,9 +38,9 @@ h2{
 
 
 <h2><center>HI, WELCOME TO MY PORTFOLIO!</center></h2>
-<p>Web developer from Bishkek!</p>
-<p>Name: AIDANA AKMATOVA</p>
-<P>Age: 19</P>
+<h3>Web developer from Bishkek!</h3>
+<h3>Name: AIDANA AKMATOVA</h3>
+<h3>Age: 19</h3>
 <p>.</p>
 <p>.</p>
 <p>.</p>
@@ -49,7 +49,7 @@ h2{
 <p>.</p>
 <p>.</p>
 <p>.</p>
-<p>Me in social media</p>
+<h3>Me in social media</h3>
 
 <a href="#" class="fa fa-youtube"></a>
 <a href="#" class="fa fa-instagram"></a>
