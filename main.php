@@ -41,6 +41,7 @@ h2{
 <h3>Web developer from Bishkek!</h3>
 <h3>Name: Begimai Almaz kyzy</h3>
 <h3>Age: 19</h3>
+
 <p>.</p>
 <p>.</p>
 <p>.</p>
@@ -51,7 +52,7 @@ h2{
 <p>.</p>
 <h3>Me in social media</h3>
 
-<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://youtube.com/channel/UC_UmUVbO7i9-V2rcV0jGwTA" class="fa fa-youtube"></a>
 <a href="https://instagram.com/bemrosse?utm_medium=copy_link" class="fa fa-instagram"></a>
 
 </body>
